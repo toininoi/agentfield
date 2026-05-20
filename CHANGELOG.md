@@ -6,6 +6,61 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 
 <!-- changelog:entries -->
 
+## [0.1.85-rc.4] - 2026-05-20
+
+
+### Chores
+
+- Chore(deps): bump idna in /sdk/python in the uv group across 1 directory (#577)
+
+Bumps the uv group with 1 update in the /sdk/python directory: [idna](https://github.com/kjd/idna).
+
+
+Updates `idna` from 3.11 to 3.15
+- [Release notes](https://github.com/kjd/idna/releases)
+- [Changelog](https://github.com/kjd/idna/blob/master/HISTORY.md)
+- [Commits](https://github.com/kjd/idna/compare/v3.11...v3.15)
+
+---
+updated-dependencies:
+- dependency-name: idna
+  dependency-version: '3.15'
+  dependency-type: indirect
+  dependency-group: uv
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> (ceb905f)
+
+- Chore(deps): bump the npm_and_yarn group across 2 directories with 1 update (#578)
+
+Bumps the npm_and_yarn group with 1 update in the /examples/benchmarks/100k-scale/mastra-bench directory: [ws](https://github.com/websockets/ws).
+Bumps the npm_and_yarn group with 1 update in the /sdk/typescript directory: [ws](https://github.com/websockets/ws).
+
+
+Updates `ws` from 8.20.0 to 8.20.1
+- [Release notes](https://github.com/websockets/ws/releases)
+- [Commits](https://github.com/websockets/ws/compare/8.20.0...8.20.1)
+
+Updates `ws` from 8.18.3 to 8.20.1
+- [Release notes](https://github.com/websockets/ws/releases)
+- [Commits](https://github.com/websockets/ws/compare/8.20.0...8.20.1)
+
+---
+updated-dependencies:
+- dependency-name: ws
+  dependency-version: 8.20.1
+  dependency-type: indirect
+  dependency-group: npm_and_yarn
+- dependency-name: ws
+  dependency-version: 8.20.1
+  dependency-type: direct:production
+  dependency-group: npm_and_yarn
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com> (b357233)
+
 ## [0.1.85-rc.3] - 2026-05-13
 
 
